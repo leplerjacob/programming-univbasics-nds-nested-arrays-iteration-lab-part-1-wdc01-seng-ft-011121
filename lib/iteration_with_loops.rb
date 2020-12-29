@@ -6,7 +6,6 @@ def find_even_values(src)
   # Output all even values in each nested array
   for i in 0...src.length
     for f in 0...src[i].length
-      binding.pry
       puts src[i][f]
     end
   end
